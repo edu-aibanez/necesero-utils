@@ -49,7 +49,7 @@
 #list th {
   font-weight: 600;
   color: #f8f9fa;
-  background-color: #14464f;
+  background-color: var(--pink);
   text-align: left;
 }
 
@@ -57,7 +57,7 @@
 
 #filter-row {
   vertical-align: baseline;
-  background-color: rgba(44, 185, 198, .1);
+  background-color: rgba(237, 160, 154, .1);
 }
 
 #filter-row label {
@@ -65,7 +65,7 @@
 }
 
 #filter-row input {
-  border-color: rgb(42, 173, 185, .5);
+  border-color: rgba(237, 160, 154, .5);
 }
 
 #filter-row input.date {
@@ -84,19 +84,19 @@
 }
 
 #filter-row #submitReset {
-  background-color: #ff7b00;
+  background-color: var(--golden);
   /* border-color: #14464f; */
   color: #f8f9fa;
 }
 
 #filter-row #submitReset:hover {
-  background-color: #e97203;
+  background-color: #947250;
   /* border-color: #14464f; */
 }
 
 #filter-row #submitFilter:hover {
-  background-color: #2cb9c6;
-  border-color: #2aadb9;
+  background-color: var(--pink);
+  border-color: #e09893;
   color: #f8f9fa;
 }
 
@@ -155,7 +155,7 @@
 }
 
 #csv-download a:hover {
-  background-color: #2cb9c6;
-  border-color: #28a2ad;
+  background-color: var(--pink);
+  border-color: #e09893;
   color: #f8f9fa;
 }
