@@ -6,5 +6,5 @@
   <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon.ico">
   <link rel="stylesheet" href="assets/css/style.css">
   <link rel="stylesheet" href="assets/fonts/css/all.css"> <!-- Font-Awesome -->
-  <title><?= $title_page ?> - Masparafarmacia</title>
+  <title><?= $title_page ?> - NeceserOnline</title>
 </head>
