@@ -1,0 +1,26 @@
+## TIPOS DE FICHERO
+# Ignorar ficheros con extensión ".db"
+*.db
+
+# Ignorar ficheros con extensión ".htaccess"
+# *.htaccess
+
+## DIRECTORIOS
+# Ignorar el directorio ".vscode"
+.vscode/
+
+# Ignorar el directorio "PHPExcel"
+# PHPExcel/
+
+# Ignorar el directorio "tcpdf"
+# tcpdf/
+
+# Ignorar el directorio "desarrollo"
+# desarrollo/
+
+## FICHEROS
+# Ignorar el fichero ".env.php"
+.env.php
+
+# Ignorar el fichero "temp.csv"
+temp.csv

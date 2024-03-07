@@ -1,0 +1,161 @@
+.list-container {
+  margin-bottom: 4rem;
+}
+
+#list {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 5px rgba(0,0,0,.1);
+}
+
+#list th:not(:first-child):not(:last-child) {
+  border-left: 1px solid #d1d2d3;
+  border-right: 1px solid #d1d2d3;
+}
+
+#list th:first-child {
+  border-top-left-radius: 8px;
+}
+#list th:last-child {
+  border-top-right-radius: 8px;
+}
+
+#list td:first-child {
+  border-left: 1px solid #d1d2d3;
+}
+#list td:last-child {
+  border-right: 1px solid #d1d2d3;
+}
+
+#list tbody tr:last-child {
+  border-bottom: 1px solid #d1d2d3;
+}
+
+#list th,
+#list td {
+  /* border-bottom: 1px solid #d1d2d3; */
+  padding: 8px;
+}
+
+#list tbody tr:nth-child(even) {
+  background-color: #ebeced;
+}
+
+#list tbody tr:hover {
+  background-color: #e1e2e3;
+}
+
+#list th {
+  font-weight: 600;
+  color: #f8f9fa;
+  background-color: #14464f;
+  text-align: left;
+}
+
+/* Filtros */
+
+#filter-row {
+  vertical-align: baseline;
+  background-color: rgba(44, 185, 198, .1);
+}
+
+#filter-row label {
+  margin-bottom: initial;
+}
+
+#filter-row input {
+  border-color: rgb(42, 173, 185, .5);
+}
+
+#filter-row input.date {
+  width: 12rem;
+}
+
+#filter-row button[type="submit"] {
+  display: block;
+  margin-bottom: .5rem;
+  padding: .5rem;
+  border: 1px solid #d1d2d3;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #363636;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+#filter-row #submitReset {
+  background-color: #ff7b00;
+  /* border-color: #14464f; */
+  color: #f8f9fa;
+}
+
+#filter-row #submitReset:hover {
+  background-color: #e97203;
+  /* border-color: #14464f; */
+}
+
+#filter-row #submitFilter:hover {
+  background-color: #2cb9c6;
+  border-color: #2aadb9;
+  color: #f8f9fa;
+}
+
+/* BEGIN paginación */
+.pagination-container {
+  height: 3rem;
+}
+
+.pagination {
+  margin: 12px 0;
+  float: right;
+  cursor: default;
+}
+
+.pagination a {
+  border: 1px solid #d1d2d3;
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: #363636;
+}
+.pagination a:hover {
+  background-color: #363636;
+  color: #fff;
+}
+.pagination .active {
+  background-color: #363636;
+  color: #fff;
+}
+
+.pagination-select select {
+  width: initial;
+}
+
+/* END paginación */
+
+
+/* Descarga de CSV */
+#csv-download {
+  position: relative;
+  float: right;
+  bottom: 2rem;
+}
+
+#csv-download a {
+  width: 6rem;
+  display: inline-block;
+  padding: .5rem;
+  border: 1px solid #d1d2d3;
+  border-radius: 4px;
+  background-color: #f8f9fa;
+  color: #363636;
+  text-decoration: none;
+  text-align: center;
+  box-shadow: 0 1px 1px rgba(0,0,0,.1);
+}
+
+#csv-download a:hover {
+  background-color: #2cb9c6;
+  border-color: #28a2ad;
+  color: #f8f9fa;
+}

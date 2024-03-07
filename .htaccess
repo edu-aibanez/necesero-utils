@@ -1,0 +1,5 @@
+Options -Indexes
+<FilesMatch "^(?!.*\.(php|html|htm|css|ico|png|gif|ttf|woff2)$).*$">
+    Order allow,deny
+    Deny from all
+</FilesMatch>
