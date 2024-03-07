@@ -4,8 +4,8 @@ $actual_page = basename($_SERVER['SCRIPT_NAME']); // Devuelve el nombre del arch
 $enlaces = [
     /* 'stats.php' => ['Estadísticas', 'fa-regular fa-bar-chart', 3], */
     /* 'sellout.php' => ['Sellout', 'fa-regular fa-clock', 2], */
-    'list.php' => ['Precios', 'fa-solid fa-table', 4],
     'products.php' => ['Productos', 'fa-solid fa-cubes', 5],
+    'list.php' => ['Precios', 'fa-solid fa-table', 4],
     'stock.php' => ['Stock', 'fa-solid fa-boxes', 5],
     'bestselling.php' => ['Más vendidos', 'fa-solid fa-star', 4],
 ];
