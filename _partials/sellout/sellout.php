@@ -328,8 +328,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
       // Agrega el texto de la cabecera alineado a la derecha
       $pdf->SetX($textX);
-      $pdf->Cell(0, 10, 'Badasalud, S.L. - Contacto: administracion@masparafarmacia.com', 0, 1, 'R');
-      // $pdf->Cell(0, 10, 'MasParafarmacia - Badasalud, S.L. - Contacto: administracion@masparafarmacia.com', 0, 1, 'C');
+      $pdf->Cell(0, 10, 'NeceserOnline S.L. - Contacto: administracion@neceseronline.com', 0, 1, 'R');
+      // $pdf->Cell(0, 10, 'NeceserOnline - NeceserOnline, S.L - Contacto: administracion@neceseronline.com', 0, 1, 'C');
 
       // Calcula el ancho de las columnas
       $totalColumns = count($data[0]);
